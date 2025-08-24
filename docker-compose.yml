@@ -1,0 +1,23 @@
+# 指定 Docker Compose 文件的版本
+version: '3.8'
+
+# 定义服务列表
+services:
+  # 为我们的机器人服务起一个名字，例如 "bot"
+  bot:
+    # build 指令告诉 Docker Compose 如何构建镜像
+    # '.' 表示使用当前目录下的 Dockerfile
+    build: .
+
+    # 给容器起一个固定的名字，方便管理
+    container_name: blinko_telegram_bot
+
+    # 指定要加载的环境变量文件
+    # 这等同于 docker run 命令中的 --env-file .env
+    env_file:
+      - .env
+
+    # 设置重启策略，这非常重要！
+    # unless-stopped 表示除非手动停止，否则容器总是在退出后自动重启
+    # 这确保了即使服务器重启或程序意外崩溃，机器人也能自动恢复运行
+    restart: unless-stopped
