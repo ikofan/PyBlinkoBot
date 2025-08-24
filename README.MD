@@ -35,7 +35,7 @@ Before you begin, ensure you have the following:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/ikofan/PyBlinkoBot.git](https://github.com/ikofan/PyBlinkoBot.git)
+    git clone https://github.com/ikofan/PyBlinkoBot.git
     cd PyBlinkoBot
     ```
 
@@ -48,7 +48,7 @@ Before you begin, ensure you have the following:
     ```ini
     TELEGRAM_BOT_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"
     AUTHORIZED_CHAT_ID="YOUR_CHAT_ID"
-    BLINKO_API_URL="[http://your-blinko-instance.com](http://your-blinko-instance.com)"
+    BLINKO_API_URL="http://your-blinko-instance.com"
     BLINKO_API_KEY="YOUR_BLINKO_BEARER_TOKEN"
     ```
 
@@ -118,7 +118,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 1.  **克隆本仓库**
     ```bash
-    git clone [https://github.com/ikofan/PyBlinkoBot.git](https://github.com/ikofan/PyBlinkoBot.git)
+    git clone https://github.com/ikofan/PyBlinkoBot.git
     cd PyBlinkoBot
     ```
 
@@ -131,7 +131,7 @@ This project is licensed under the [MIT License](LICENSE).
     ```ini
     TELEGRAM_BOT_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"
     AUTHORIZED_CHAT_ID="YOUR_CHAT_ID"
-    BLINKO_API_URL="[http://your-blinko-instance.com](http://your-blinko-instance.com)"
+    BLINKO_API_URL="http://your-blinko-instance.com"
     BLINKO_API_KEY="YOUR_BLINKO_BEARER_TOKEN"
     ```
 
