@@ -10,7 +10,7 @@ services:
     build: .
 
     # 给容器起一个固定的名字，方便管理
-    container_name: blinko_telegram_bot
+    container_name: pyblinkobot
 
     # 指定要加载的环境变量文件
     # 这等同于 docker run 命令中的 --env-file .env

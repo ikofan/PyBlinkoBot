@@ -35,7 +35,7 @@ Before you begin, ensure you have the following:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YourUsername/PyBlinkoBot.git](https://github.com/YourUsername/PyBlinkoBot.git)
+    git clone [https://github.com/ikofan/PyBlinkoBot.git](https://github.com/ikofan/PyBlinkoBot.git)
     cd PyBlinkoBot
     ```
 
@@ -118,7 +118,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 1.  **克隆本仓库**
     ```bash
-    git clone [https://github.com/YourUsername/PyBlinkoBot.git](https://github.com/YourUsername/PyBlinkoBot.git)
+    git clone [https://github.com/ikofan/PyBlinkoBot.git](https://github.com/ikofan/PyBlinkoBot.git)
     cd PyBlinkoBot
     ```
 

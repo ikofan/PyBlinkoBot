@@ -4,8 +4,16 @@
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # IDE and OS specific files
 .idea/
 .vscode/
 .DS_Store
+
+# Python virtual environment
+venv/
+bin/
+lib/
+*.cfg
